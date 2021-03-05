@@ -1,4 +1,4 @@
-baseurl = "https://ykq.netlify.com"
+baseurl = "https://ykq.netlify.app"
 googleAnalytics = ""
 languageCode = "zh-hans"
 paginate = 6
