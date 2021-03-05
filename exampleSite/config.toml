@@ -6,32 +6,32 @@ summaryLength = "10"
 theme = "parsa-hugo"
 title = "杨凯强 | 博客"
 [[menu.main]]
-name = "主页1"
-parent = "主页"
-url = "homepage/home-1"
+hasChildren = true
+name = "Homepage"
+url = ""
 weight = 1
 [[menu.main]]
-name = "主页 2"
-parent = "主页"
-url = "homepage/home-2"
-weight = 2
+name = "Homepage 1"
+parent = "Homepage"
+url = "homepage/home-1"
 [[menu.main]]
-name = "内容"
-url = "contact"
-weight = 3
+hasChildren = true
+name = "主页2"
+parent = "Homepage"
+url = "homepage/home-2"
 [[menu.main]]
 name = "关于"
 url = "about"
 weight = 2
 [[menu.main]]
-hasChildren = true
-name = "主页"
-weight = 1
+name = "Contact"
+url = "contact"
+weight = 3
 [outputs]
 home = ["HTML", "RSS", "JSON"]
 [params]
 address = "6 rip carl Avenue CA 90733"
-author = "John Doe"
+author = "ykq"
 author_image = "images/banner-img.png"
 bio = "I’m a Freelance Interactive Art Director based in France. Focusing across branding and identity, digital and print."
 contact_form_action = "#"
