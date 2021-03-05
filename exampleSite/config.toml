@@ -25,7 +25,8 @@ name = "Homepage 1"
 parent = "Homepage"
 url = "homepage/home-1"
 [[menu.main]]
-name = ""
+hasChildren = true
+name = "主页2"
 parent = "Homepage"
 url = "homepage/home-2"
 [[menu.main]]
