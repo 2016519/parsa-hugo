@@ -6,6 +6,16 @@ summaryLength = "10"
 theme = "parsa-hugo"
 title = "杨凯强 | Personal Blog Template"
 [[menu.main]]
+hasChildren = ""
+name = ""
+url = ""
+weight = ""
+[[menu.main]]
+hasChildren = ""
+name = ""
+url = ""
+weight = ""
+[[menu.main]]
 hasChildren = true
 name = "Homepage"
 url = ""
@@ -15,7 +25,7 @@ name = "Homepage 1"
 parent = "Homepage"
 url = "homepage/home-1"
 [[menu.main]]
-name = "Homepage 2"
+name = ""
 parent = "Homepage"
 url = "homepage/home-2"
 [[menu.main]]
