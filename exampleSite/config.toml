@@ -6,28 +6,23 @@ summaryLength = "10"
 theme = "parsa-hugo"
 title = "杨凯强 | 博客"
 [[menu.main]]
-hasChildren = true
-name = "主页"
-url = ""
+name = "主页1"
+parent = "主页"
+url = "homepage/home-1"
 weight = 1
 [[menu.main]]
-hasChildren = false
-name = "主页 1"
-parent = "Homepage"
-url = "homepage/home-1"
-[[menu.main]]
-hasChildren = true
-name = "主页2"
-parent = "Homepage"
+name = "主页 2"
+parent = "主页"
 url = "homepage/home-2"
+weight = 2
+[[menu.main]]
+name = "内容"
+url = "contact"
+weight = 3
 [[menu.main]]
 name = "关于"
 url = "about"
 weight = 2
-[[menu.main]]
-name = "联系我"
-url = "contact"
-weight = 3
 [outputs]
 home = ["HTML", "RSS", "JSON"]
 [params]
