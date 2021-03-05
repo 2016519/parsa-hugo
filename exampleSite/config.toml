@@ -7,7 +7,7 @@ theme = "parsa-hugo"
 title = "杨凯强 | 博客"
 [[menu.main]]
 hasChildren = true
-name = "Homepage"
+name = "主页"
 url = ""
 weight = 1
 [[menu.main]]
