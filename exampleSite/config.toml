@@ -6,12 +6,12 @@ summaryLength = "10"
 theme = "parsa-hugo"
 title = "杨凯强 | 博客"
 [[menu.main]]
-name = "Homepage 1"
+name = "主页1"
 parent = "主页"
 url = "homepage/home-1"
 weight = 1
 [[menu.main]]
-name = "Homepage 2"
+name = "主页 2"
 parent = "主页"
 url = "homepage/home-2"
 weight = 2
