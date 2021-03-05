@@ -4,7 +4,7 @@ languageCode = "zh-hans"
 paginate = 6
 summaryLength = "10"
 theme = "parsa-hugo"
-title = "杨凯强 | Personal Blog Template"
+title = "杨凯强 | 博客"
 [[menu.main]]
 hasChildren = ""
 name = ""
