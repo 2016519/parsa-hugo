@@ -25,7 +25,7 @@ name = "关于"
 url = "about"
 weight = 2
 [[menu.main]]
-name = "Contact"
+name = "联系我"
 url = "contact"
 weight = 3
 [outputs]
