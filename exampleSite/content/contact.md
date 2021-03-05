@@ -1,6 +1,6 @@
 ---
-title: Contact
-description: This is meta description
+title: 联系我
+description: 怎样跟我们联系
 image: images/contact.jpg
 layout: contact
 
